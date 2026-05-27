@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>人気投票</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <h1>人気投票</h1>
+    <div id="voteList">
+      <div class="card" data-id="1">
+        <div class="candidate-image">
+          <img src="./images/cat.png" alt="ねこ" />
+        </div>
+        <div class="candidate-name">ねこ</div>
+        <div class="votes">0票</div>
+        <div class="progress-bar"><div class="bar"></div></div>
+        <button class="vote-btn">投票する</button>
+      </div>
+      <div class="card" data-id="2">
+        <div class="candidate-image">
+          <img src="./images/dog.png" alt="いぬ" />
+        </div>
+        <div class="candidate-name">いぬ</div>
+        <div class="votes">0票</div>
+        <div class="progress-bar"><div class="bar"></div></div>
+        <button class="vote-btn">投票する</button>
+      </div>
+      <div class="card" data-id="3">
+        <div class="candidate-image">
+          <img src="./images/bird.png" alt="インコ" />
+        </div>
+        <div class="candidate-name">インコ</div>
+        <div class="votes">0票</div>
+        <div class="progress-bar"><div class="bar"></div></div>
+        <button class="vote-btn">投票する</button>
+      </div>
+    </div>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
