@@ -62,3 +62,12 @@ h1 {
   border-radius: 4px;
   cursor: pointer;
 }
+
+/* スクロールできる余白を作るためのダミー要素 */
+.spacer {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: #f5f5f5;
+  color: #888;
+}
